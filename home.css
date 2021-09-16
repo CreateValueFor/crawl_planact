@@ -5,6 +5,7 @@
   border-radius: 5px;
 }
 .filter-list-item{
+  display: inline-block;
   width:5rem;
   height: 5rem;
   border-radius: .5rem;
@@ -13,4 +14,10 @@
 }
 .filter-list-item:hover{
   filter:brightness(70%)
+}
+.filter-list::-webkit-scrollbar{
+  display: none;
+}
+#left::-webkit-scrollbar{
+  display: none;
 }
