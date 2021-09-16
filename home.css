@@ -1,0 +1,16 @@
+.bank{
+  width: 60px; 
+  height: 60px; 
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.filter-list-item{
+  width:5rem;
+  height: 5rem;
+  border-radius: .5rem;
+  border: 1px solid black;
+
+}
+.filter-list-item:hover{
+  filter:brightness(70%)
+}
